@@ -61,26 +61,7 @@ footer {
     width: 370px;
   }
 
-  button {
-    position: absolute;
-    padding: 16px 40px;
-    height: 53px;
-    border-radius: 10px;
-    border: none;
-    background-color: #f2c855;
-    font-size: 16px;
-    font-weight: 500;
-    color: #3a0ca3;
-    right: 6px;
-    top: 6px;
-    transition: all 0.5s;
-
-    &:hover {
-      cursor: pointer;
-      border-radius: 70px 10px 70px 10px;
-      box-shadow: -10px 0px #e2e0e5;
-    }
-  }
+  
 }
 
 .social {
