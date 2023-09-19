@@ -79,24 +79,4 @@
   outline: none;
 }
 
-button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #3ab34a;
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  transform: rotateX(-2deg);
-  transition: all 0.3s ease-in-out;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
 
-button:hover {
-  background-color: #3ab34a;
-  font-size: 17px;
-  transform: scale(1.05) rotateY(0deg) rotateX(0deg);
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
