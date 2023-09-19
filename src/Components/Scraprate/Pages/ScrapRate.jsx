@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "../banner/component";
 import Navbar from "../Navbar/Navbar";
 import PriceList from "../PriceList/PriceList";
-import Footer from "../Footer/Footer";
+import Footer from "../../Home/Footer";
 
 
 
