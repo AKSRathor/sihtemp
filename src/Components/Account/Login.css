@@ -1,0 +1,34 @@
+.login3{
+    background-color: green;
+    height: 100vh;
+    width: 100%;
+}
+.inputLoginSection{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttonRightShift3{
+    align-items: right;
+
+    transform: rotate(180deg);
+}
+.buttonInputSignIn {
+    display: flex;
+    width: 25%;
+    justify-content: right;
+}
+.otpSectionWrite3{
+    display: flex;
+    gap: 20px;
+}
+.loginSectionInitial3{
+    display: block;
+}
+.otpSection3{
+    display: none;
+}
