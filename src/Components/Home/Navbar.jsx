@@ -24,7 +24,7 @@ const Navbar = () => {
 
 
             <div className='hidden md:flex'>
-                <Link to="/profile" style={{alignItems:"center", display:"flex"}}><button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
+                <Link to="/login" style={{alignItems:"center", display:"flex"}}><button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
                     <img src={lock} />
                     Login
                 </button>
