@@ -17,6 +17,7 @@ import Home from './Components/Home/Home';
 import { Navbar } from './Components/Home';
 import ScrapRate from './Components/Scraprate/Pages/ScrapRate';
 import Price from './Components/Scraprate/Price/pricePred';
+import Login from './Components/Account/Login';
 // import { Navbar } from './Components/Scraprate/Navbar/Navbar';
 // import { Navbar2 } from './Components/Scraprate/Navbar/Navbar'
 
@@ -30,7 +31,9 @@ function App() {
         
             <Routes>
               
-              <Route exact path="/" element={<Home setsideState = {setsideState} setSetsideState = {setSetsideState} />} />
+            <Route exact path="/" element={<Home setsideState = {setsideState} setSetsideState = {setSetsideState} />} />
+              <Route exact path="/login" element={<Login/>} />
+
               <Route exact path="/pricepred" element={<Price />} />
               <Route exact path="/Scraprate" element={<ScrapRate />} />
               <Route exact path="/Profile" element={<Profile setsideState = {setsideState} setSetsideState = {setSetsideState} />} />
