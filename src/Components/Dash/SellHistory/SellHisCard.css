@@ -1,0 +1,109 @@
+.cardUpperSectionLeft3 {
+    display: flex;
+}
+.sellCard3{
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+}
+.SelltoCrd3,
+.SellPriceCrd3,
+.shipToCard3 {
+    width: 20%;
+}
+
+.cardUpperSectionLeft3,
+.cardUpperSectionRight3 {
+    flex: 1 1 auto;
+}
+
+.sellCardUpperSection3 {
+    display: flex;
+}
+
+.sellCardUpperSection3 {
+    background-color: rgb(239, 239, 239);
+    padding: 1%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid #999;
+}
+
+.sellCardLeftSection3 {
+    width: 70%;
+    gap: 20px;
+    padding: 2%;
+    display: flex;
+}
+
+.sellCardLeftImgSection3 {
+    width: 30%;
+}
+
+.sellCardLeftImg3 {
+    border-radius: 10px;
+
+}
+
+.sellCardBottomCard3 {
+    display: flex;
+    
+}
+
+.mainSellCardBtn3 {
+    background-color: #eee;
+    border: none;
+    padding: 7%;
+    font-size: 0.8em;
+    width: 10em;
+    border-radius: 1rem;
+    color: rgb(74, 138, 84);
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+}
+
+.mainSellCardBtn3:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+
+.mainSellCardBtn3:hover:not(:disabled) {
+    background: rgb(74, 138, 84);
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+
+.mainSellCardBtn3:disabled {
+    cursor: auto;
+    color: grey;
+}
+
+
+.AnotherSellCardBtn3 {
+
+    background-color: #eee;
+    border: none;
+    padding: 5%;
+    /* font-size: 1rem; */
+    font-size: 0.8em;
+    width: 10em;
+    border-radius: 0.5rem;
+    color: #333;
+    /* box-shadow: 0 0.4rem #dfd9d9; */
+    cursor: pointer;
+}
+
+.sellCardBottomRightSection3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 2%;
+}
+
+.sellCardHConfirm{
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    font-weight: bold;
+    color: green;
+}

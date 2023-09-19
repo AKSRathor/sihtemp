@@ -1,0 +1,31 @@
+
+.sellInsidePortal3{
+    width: 80%;
+    height: 95%;
+    padding: 3%;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow-y: auto;
+}
+.sellPortalUpperSection3{
+    display: flex;
+    
+}
+.sellPortalUSecH{
+    flex: 1 1 auto;
+}
+.sellPortalUSecS{
+    flex: 1 1 auto;
+}
+
+.sellPortalUSecHtag{
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.allSellingCards3{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
