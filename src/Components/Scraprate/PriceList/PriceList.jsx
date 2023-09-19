@@ -219,8 +219,8 @@ const PriceList = () => {
             <img src={wire} />
           </div>
           <div>
-            <h4>Rate - 100</h4>
-            <p>Air Conditioner</p>
+            <span>RS 10/KG</span>
+            <p>WIRES</p>
           </div>
         </div>
       </div>
